@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simple Login Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF=8">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <h1 class="col-sm-12">Login Page</h1>
+            </div>
+            <div class="row formStyles">
+                <div class="col-sm-4 leftMargin"></div> 
+                <div class="col-sm-4  formCenter">
+                    <form >
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>UserName</mat-label> 
+                                    <input matInput placeholder="Ex. John_Paul">
+                                </mat-form-field>
+                            </div>
+                            <div class="col-sm-12">
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>Password</mat-label>
+                                    <input matInput type="password" placeholder="Password">
+                                </mat-form-field>
+                            </div>
+                            <div class="col-sm-12 buttons">
+                                <button mat-raised-button color="warn" (click)="register()" class="registerBtn">Register</button>
+                                <button mat-raised-button color="primary" (click)="login()" class="loginBtn">Login</button> 
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-4 rightMargin"></div>
+            </div>
+        </div> 
+    </body>
+</html>

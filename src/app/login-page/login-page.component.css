@@ -1,0 +1,44 @@
+h1{
+   font-size: 50px;
+   text-align: center;
+   background-color: #1565c0;
+   padding: 20px;
+   color: azure;
+   margin-left: 0px;
+   width: 100%;
+   line-height: initial;
+}
+.example-full-width{
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px
+}
+.loginBtn{
+    width: 150px;
+    text-align: center;
+}
+.registerBtn{
+    width: 200px;
+    text-align: center;
+}
+.buttoncenter{
+    text-align: center;
+}
+/* .formStyles{
+    width: 400px;
+} */
+.formCenter{
+    text-align: -webkit-center;
+    margin-top: 30px;
+}
+/* .container{
+    padding-left: 0px;
+    padding-right: 0px;
+} */
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1200px){
+    
+}
